@@ -1,0 +1,1115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Single_Cycle_Top_Tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Single_Cycle_Top_Tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="487.501 ns"></ZoomEndTime>
+      <Cursor1Time time="13.500 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="276"></NameColumnWidth>
+      <ValueColumnWidth column_width="71"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="11" />
+   <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_1/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_1/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/core1_result" type="array">
+      <obj_property name="ElementShortName">core1_result[31:0]</obj_property>
+      <obj_property name="ObjectShortName">core1_result[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/core2_result" type="array">
+      <obj_property name="ElementShortName">core2_result[31:0]</obj_property>
+      <obj_property name="ObjectShortName">core2_result[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/core3_result" type="array">
+      <obj_property name="ElementShortName">core3_result[31:0]</obj_property>
+      <obj_property name="ObjectShortName">core3_result[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/core4_result" type="array">
+      <obj_property name="ElementShortName">core4_result[31:0]</obj_property>
+      <obj_property name="ObjectShortName">core4_result[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/final_result" type="array">
+      <obj_property name="ElementShortName">final_result[31:0]</obj_property>
+      <obj_property name="ObjectShortName">final_result[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="group224" type="group">
+      <obj_property name="label">core1</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="group157" type="group">
+         <obj_property name="label">pc_c1</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_1/PC/PC_Next" type="array">
+            <obj_property name="ElementShortName">PC_Next[31:0]</obj_property>
+            <obj_property name="ObjectShortName">PC_Next[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_1/PC/PC" type="array">
+            <obj_property name="ElementShortName">PC[31:0]</obj_property>
+            <obj_property name="ObjectShortName">PC[31:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group161" type="group">
+         <obj_property name="label">c1_pcadder</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_1/PC_Adder/a" type="array">
+            <obj_property name="ElementShortName">a[31:0]</obj_property>
+            <obj_property name="ObjectShortName">a[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_1/PC_Adder/b" type="array">
+            <obj_property name="ElementShortName">b[31:0]</obj_property>
+            <obj_property name="ObjectShortName">b[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_1/PC_Adder/c" type="array">
+            <obj_property name="ElementShortName">c[31:0]</obj_property>
+            <obj_property name="ObjectShortName">c[31:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group167" type="group">
+         <obj_property name="label">C!_IM</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_1/Instruction_Memory/A" type="array">
+            <obj_property name="ElementShortName">A[31:0]</obj_property>
+            <obj_property name="ObjectShortName">A[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_1/Instruction_Memory/multi_instr" type="array">
+            <obj_property name="ElementShortName">multi_instr[31:0]</obj_property>
+            <obj_property name="ObjectShortName">multi_instr[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_1/Instruction_Memory/RD" type="array">
+            <obj_property name="ElementShortName">RD[31:0]</obj_property>
+            <obj_property name="ObjectShortName">RD[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_1/Instruction_Memory/mem" type="array">
+            <obj_property name="ElementShortName">mem[1023:0][31:0]</obj_property>
+            <obj_property name="ObjectShortName">mem[1023:0][31:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group178" type="group">
+         <obj_property name="label">c1_rf</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_1/Register_File/WE3" type="logic">
+            <obj_property name="ElementShortName">WE3</obj_property>
+            <obj_property name="ObjectShortName">WE3</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_1/Register_File/A1" type="array">
+            <obj_property name="ElementShortName">A1[4:0]</obj_property>
+            <obj_property name="ObjectShortName">A1[4:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_1/Register_File/A2" type="array">
+            <obj_property name="ElementShortName">A2[4:0]</obj_property>
+            <obj_property name="ObjectShortName">A2[4:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_1/Register_File/A3" type="array">
+            <obj_property name="ElementShortName">A3[4:0]</obj_property>
+            <obj_property name="ObjectShortName">A3[4:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_1/Register_File/WD3" type="array">
+            <obj_property name="ElementShortName">WD3[31:0]</obj_property>
+            <obj_property name="ObjectShortName">WD3[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_1/Register_File/RD1" type="array">
+            <obj_property name="ElementShortName">RD1[31:0]</obj_property>
+            <obj_property name="ObjectShortName">RD1[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_1/Register_File/RD2" type="array">
+            <obj_property name="ElementShortName">RD2[31:0]</obj_property>
+            <obj_property name="ObjectShortName">RD2[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_1/Register_File/Register" type="array">
+            <obj_property name="ElementShortName">Register[31:0][31:0]</obj_property>
+            <obj_property name="ObjectShortName">Register[31:0][31:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group182" type="group">
+         <obj_property name="label">c1_SE</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_1/Sign_Extend/In" type="array">
+            <obj_property name="ElementShortName">In[31:0]</obj_property>
+            <obj_property name="ObjectShortName">In[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_1/Sign_Extend/ImmSrc" type="logic">
+            <obj_property name="ElementShortName">ImmSrc</obj_property>
+            <obj_property name="ObjectShortName">ImmSrc</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_1/Sign_Extend/Imm_Ext" type="array">
+            <obj_property name="ElementShortName">Imm_Ext[31:0]</obj_property>
+            <obj_property name="ObjectShortName">Imm_Ext[31:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group187" type="group">
+         <obj_property name="label">c1_mra</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_1/Mux_Register_to_ALU/a" type="array">
+            <obj_property name="ElementShortName">a[31:0]</obj_property>
+            <obj_property name="ObjectShortName">a[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_1/Mux_Register_to_ALU/b" type="array">
+            <obj_property name="ElementShortName">b[31:0]</obj_property>
+            <obj_property name="ObjectShortName">b[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_1/Mux_Register_to_ALU/s" type="logic">
+            <obj_property name="ElementShortName">s</obj_property>
+            <obj_property name="ObjectShortName">s</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_1/Mux_Register_to_ALU/c" type="array">
+            <obj_property name="ElementShortName">c[31:0]</obj_property>
+            <obj_property name="ObjectShortName">c[31:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group198" type="group">
+         <obj_property name="label">c1_alu</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_1/ALU/A" type="array">
+            <obj_property name="ElementShortName">A[31:0]</obj_property>
+            <obj_property name="ObjectShortName">A[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_1/ALU/B" type="array">
+            <obj_property name="ElementShortName">B[31:0]</obj_property>
+            <obj_property name="ObjectShortName">B[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_1/ALU/ALUControl" type="array">
+            <obj_property name="ElementShortName">ALUControl[2:0]</obj_property>
+            <obj_property name="ObjectShortName">ALUControl[2:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_1/ALU/Carry" type="logic">
+            <obj_property name="ElementShortName">Carry</obj_property>
+            <obj_property name="ObjectShortName">Carry</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_1/ALU/OverFlow" type="logic">
+            <obj_property name="ElementShortName">OverFlow</obj_property>
+            <obj_property name="ObjectShortName">OverFlow</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_1/ALU/Zero" type="logic">
+            <obj_property name="ElementShortName">Zero</obj_property>
+            <obj_property name="ObjectShortName">Zero</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_1/ALU/Negative" type="logic">
+            <obj_property name="ElementShortName">Negative</obj_property>
+            <obj_property name="ObjectShortName">Negative</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_1/ALU/Result" type="array">
+            <obj_property name="ElementShortName">Result[31:0]</obj_property>
+            <obj_property name="ObjectShortName">Result[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_1/ALU/Cout" type="logic">
+            <obj_property name="ElementShortName">Cout</obj_property>
+            <obj_property name="ObjectShortName">Cout</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_1/ALU/Sum" type="array">
+            <obj_property name="ElementShortName">Sum[31:0]</obj_property>
+            <obj_property name="ObjectShortName">Sum[31:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group210" type="group">
+         <obj_property name="label">c1_cu</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_1/Control_Unit_Top/Op" type="array">
+            <obj_property name="ElementShortName">Op[6:0]</obj_property>
+            <obj_property name="ObjectShortName">Op[6:0]</obj_property>
+            <obj_property name="Radix">BINARYRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_1/Control_Unit_Top/funct7" type="array">
+            <obj_property name="ElementShortName">funct7[6:0]</obj_property>
+            <obj_property name="ObjectShortName">funct7[6:0]</obj_property>
+            <obj_property name="Radix">BINARYRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_1/Control_Unit_Top/funct3" type="array">
+            <obj_property name="ElementShortName">funct3[2:0]</obj_property>
+            <obj_property name="ObjectShortName">funct3[2:0]</obj_property>
+            <obj_property name="Radix">BINARYRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_1/Control_Unit_Top/RegWrite" type="logic">
+            <obj_property name="ElementShortName">RegWrite</obj_property>
+            <obj_property name="ObjectShortName">RegWrite</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_1/Control_Unit_Top/ALUSrc" type="logic">
+            <obj_property name="ElementShortName">ALUSrc</obj_property>
+            <obj_property name="ObjectShortName">ALUSrc</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_1/Control_Unit_Top/MemWrite" type="logic">
+            <obj_property name="ElementShortName">MemWrite</obj_property>
+            <obj_property name="ObjectShortName">MemWrite</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_1/Control_Unit_Top/ResultSrc" type="logic">
+            <obj_property name="ElementShortName">ResultSrc</obj_property>
+            <obj_property name="ObjectShortName">ResultSrc</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_1/Control_Unit_Top/Branch" type="logic">
+            <obj_property name="ElementShortName">Branch</obj_property>
+            <obj_property name="ObjectShortName">Branch</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_1/Control_Unit_Top/ImmSrc" type="array">
+            <obj_property name="ElementShortName">ImmSrc[1:0]</obj_property>
+            <obj_property name="ObjectShortName">ImmSrc[1:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_1/Control_Unit_Top/ALUControl" type="array">
+            <obj_property name="ElementShortName">ALUControl[2:0]</obj_property>
+            <obj_property name="ObjectShortName">ALUControl[2:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_1/Control_Unit_Top/ALUOp" type="array">
+            <obj_property name="ElementShortName">ALUOp[1:0]</obj_property>
+            <obj_property name="ObjectShortName">ALUOp[1:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group218" type="group">
+         <obj_property name="label">c1_dm</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_1/Data_Memory/WE" type="logic">
+            <obj_property name="ElementShortName">WE</obj_property>
+            <obj_property name="ObjectShortName">WE</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_1/Data_Memory/A" type="array">
+            <obj_property name="ElementShortName">A[31:0]</obj_property>
+            <obj_property name="ObjectShortName">A[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_1/Data_Memory/WD" type="array">
+            <obj_property name="ElementShortName">WD[31:0]</obj_property>
+            <obj_property name="ObjectShortName">WD[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_1/Data_Memory/RD" type="array">
+            <obj_property name="ElementShortName">RD[31:0]</obj_property>
+            <obj_property name="ObjectShortName">RD[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_1/Data_Memory/mem" type="array">
+            <obj_property name="ElementShortName">mem[1023:0][31:0]</obj_property>
+            <obj_property name="ObjectShortName">mem[1023:0][31:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group223" type="group">
+         <obj_property name="label">c1_mdmr</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_1/Mux_DataMemory_to_Register/a" type="array">
+            <obj_property name="ElementShortName">a[31:0]</obj_property>
+            <obj_property name="ObjectShortName">a[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_1/Mux_DataMemory_to_Register/b" type="array">
+            <obj_property name="ElementShortName">b[31:0]</obj_property>
+            <obj_property name="ObjectShortName">b[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_1/Mux_DataMemory_to_Register/s" type="logic">
+            <obj_property name="ElementShortName">s</obj_property>
+            <obj_property name="ObjectShortName">s</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_1/Mux_DataMemory_to_Register/c" type="array">
+            <obj_property name="ElementShortName">c[31:0]</obj_property>
+            <obj_property name="ObjectShortName">c[31:0]</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group374" type="group">
+      <obj_property name="label">core1</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="group254" type="group">
+         <obj_property name="label">pc</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_2/PC/PC_Next" type="array">
+            <obj_property name="ElementShortName">PC_Next[31:0]</obj_property>
+            <obj_property name="ObjectShortName">PC_Next[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_2/PC/PC" type="array">
+            <obj_property name="ElementShortName">PC[31:0]</obj_property>
+            <obj_property name="ObjectShortName">PC[31:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group258" type="group">
+         <obj_property name="label">pc_adder</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_2/PC_Adder/a" type="array">
+            <obj_property name="ElementShortName">a[31:0]</obj_property>
+            <obj_property name="ObjectShortName">a[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_2/PC_Adder/b" type="array">
+            <obj_property name="ElementShortName">b[31:0]</obj_property>
+            <obj_property name="ObjectShortName">b[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_2/PC_Adder/c" type="array">
+            <obj_property name="ElementShortName">c[31:0]</obj_property>
+            <obj_property name="ObjectShortName">c[31:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group264" type="group">
+         <obj_property name="label">im</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_2/Instruction_Memory/A" type="array">
+            <obj_property name="ElementShortName">A[31:0]</obj_property>
+            <obj_property name="ObjectShortName">A[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_2/Instruction_Memory/multi_instr" type="array">
+            <obj_property name="ElementShortName">multi_instr[31:0]</obj_property>
+            <obj_property name="ObjectShortName">multi_instr[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_2/Instruction_Memory/RD" type="array">
+            <obj_property name="ElementShortName">RD[31:0]</obj_property>
+            <obj_property name="ObjectShortName">RD[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_2/Instruction_Memory/mem" type="array">
+            <obj_property name="ElementShortName">mem[1023:0][31:0]</obj_property>
+            <obj_property name="ObjectShortName">mem[1023:0][31:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group275" type="group">
+         <obj_property name="label">Register File</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_2/Register_File/WE3" type="logic">
+            <obj_property name="ElementShortName">WE3</obj_property>
+            <obj_property name="ObjectShortName">WE3</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_2/Register_File/A1" type="array">
+            <obj_property name="ElementShortName">A1[4:0]</obj_property>
+            <obj_property name="ObjectShortName">A1[4:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_2/Register_File/A2" type="array">
+            <obj_property name="ElementShortName">A2[4:0]</obj_property>
+            <obj_property name="ObjectShortName">A2[4:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_2/Register_File/A3" type="array">
+            <obj_property name="ElementShortName">A3[4:0]</obj_property>
+            <obj_property name="ObjectShortName">A3[4:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_2/Register_File/WD3" type="array">
+            <obj_property name="ElementShortName">WD3[31:0]</obj_property>
+            <obj_property name="ObjectShortName">WD3[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_2/Register_File/RD1" type="array">
+            <obj_property name="ElementShortName">RD1[31:0]</obj_property>
+            <obj_property name="ObjectShortName">RD1[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_2/Register_File/RD2" type="array">
+            <obj_property name="ElementShortName">RD2[31:0]</obj_property>
+            <obj_property name="ObjectShortName">RD2[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_2/Register_File/Register" type="array">
+            <obj_property name="ElementShortName">Register[31:0][31:0]</obj_property>
+            <obj_property name="ObjectShortName">Register[31:0][31:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group279" type="group">
+         <obj_property name="label">Sign Extend</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_2/Sign_Extend/In" type="array">
+            <obj_property name="ElementShortName">In[31:0]</obj_property>
+            <obj_property name="ObjectShortName">In[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_2/Sign_Extend/ImmSrc" type="logic">
+            <obj_property name="ElementShortName">ImmSrc</obj_property>
+            <obj_property name="ObjectShortName">ImmSrc</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_2/Sign_Extend/Imm_Ext" type="array">
+            <obj_property name="ElementShortName">Imm_Ext[31:0]</obj_property>
+            <obj_property name="ObjectShortName">Imm_Ext[31:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group284" type="group">
+         <obj_property name="label">Mux b/w Register file and ALU</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_2/Mux_Register_to_ALU/a" type="array">
+            <obj_property name="ElementShortName">a[31:0]</obj_property>
+            <obj_property name="ObjectShortName">a[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_2/Mux_Register_to_ALU/b" type="array">
+            <obj_property name="ElementShortName">b[31:0]</obj_property>
+            <obj_property name="ObjectShortName">b[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_2/Mux_Register_to_ALU/s" type="logic">
+            <obj_property name="ElementShortName">s</obj_property>
+            <obj_property name="ObjectShortName">s</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_2/Mux_Register_to_ALU/c" type="array">
+            <obj_property name="ElementShortName">c[31:0]</obj_property>
+            <obj_property name="ObjectShortName">c[31:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group295" type="group">
+         <obj_property name="label">Arithmetic and Logical Unit</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_2/ALU/A" type="array">
+            <obj_property name="ElementShortName">A[31:0]</obj_property>
+            <obj_property name="ObjectShortName">A[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_2/ALU/B" type="array">
+            <obj_property name="ElementShortName">B[31:0]</obj_property>
+            <obj_property name="ObjectShortName">B[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_2/ALU/ALUControl" type="array">
+            <obj_property name="ElementShortName">ALUControl[2:0]</obj_property>
+            <obj_property name="ObjectShortName">ALUControl[2:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_2/ALU/Carry" type="logic">
+            <obj_property name="ElementShortName">Carry</obj_property>
+            <obj_property name="ObjectShortName">Carry</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_2/ALU/OverFlow" type="logic">
+            <obj_property name="ElementShortName">OverFlow</obj_property>
+            <obj_property name="ObjectShortName">OverFlow</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_2/ALU/Zero" type="logic">
+            <obj_property name="ElementShortName">Zero</obj_property>
+            <obj_property name="ObjectShortName">Zero</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_2/ALU/Negative" type="logic">
+            <obj_property name="ElementShortName">Negative</obj_property>
+            <obj_property name="ObjectShortName">Negative</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_2/ALU/Result" type="array">
+            <obj_property name="ElementShortName">Result[31:0]</obj_property>
+            <obj_property name="ObjectShortName">Result[31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_2/ALU/Cout" type="logic">
+            <obj_property name="ElementShortName">Cout</obj_property>
+            <obj_property name="ObjectShortName">Cout</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_2/ALU/Sum" type="array">
+            <obj_property name="ElementShortName">Sum[31:0]</obj_property>
+            <obj_property name="ObjectShortName">Sum[31:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group307" type="group">
+         <obj_property name="label">Control Unit</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_2/Control_Unit_Top/Op" type="array">
+            <obj_property name="ElementShortName">Op[6:0]</obj_property>
+            <obj_property name="ObjectShortName">Op[6:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_2/Control_Unit_Top/funct7" type="array">
+            <obj_property name="ElementShortName">funct7[6:0]</obj_property>
+            <obj_property name="ObjectShortName">funct7[6:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_2/Control_Unit_Top/funct3" type="array">
+            <obj_property name="ElementShortName">funct3[2:0]</obj_property>
+            <obj_property name="ObjectShortName">funct3[2:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_2/Control_Unit_Top/RegWrite" type="logic">
+            <obj_property name="ElementShortName">RegWrite</obj_property>
+            <obj_property name="ObjectShortName">RegWrite</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_2/Control_Unit_Top/ALUSrc" type="logic">
+            <obj_property name="ElementShortName">ALUSrc</obj_property>
+            <obj_property name="ObjectShortName">ALUSrc</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_2/Control_Unit_Top/MemWrite" type="logic">
+            <obj_property name="ElementShortName">MemWrite</obj_property>
+            <obj_property name="ObjectShortName">MemWrite</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_2/Control_Unit_Top/ResultSrc" type="logic">
+            <obj_property name="ElementShortName">ResultSrc</obj_property>
+            <obj_property name="ObjectShortName">ResultSrc</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_2/Control_Unit_Top/Branch" type="logic">
+            <obj_property name="ElementShortName">Branch</obj_property>
+            <obj_property name="ObjectShortName">Branch</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_2/Control_Unit_Top/ImmSrc" type="array">
+            <obj_property name="ElementShortName">ImmSrc[1:0]</obj_property>
+            <obj_property name="ObjectShortName">ImmSrc[1:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_2/Control_Unit_Top/ALUControl" type="array">
+            <obj_property name="ElementShortName">ALUControl[2:0]</obj_property>
+            <obj_property name="ObjectShortName">ALUControl[2:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_2/Control_Unit_Top/ALUOp" type="array">
+            <obj_property name="ElementShortName">ALUOp[1:0]</obj_property>
+            <obj_property name="ObjectShortName">ALUOp[1:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group315" type="group">
+         <obj_property name="label">Data Memory</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_2/Data_Memory/WE" type="logic">
+            <obj_property name="ElementShortName">WE</obj_property>
+            <obj_property name="ObjectShortName">WE</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_2/Data_Memory/A" type="array">
+            <obj_property name="ElementShortName">A[31:0]</obj_property>
+            <obj_property name="ObjectShortName">A[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_2/Data_Memory/WD" type="array">
+            <obj_property name="ElementShortName">WD[31:0]</obj_property>
+            <obj_property name="ObjectShortName">WD[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_2/Data_Memory/RD" type="array">
+            <obj_property name="ElementShortName">RD[31:0]</obj_property>
+            <obj_property name="ObjectShortName">RD[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_2/Data_Memory/mem" type="array">
+            <obj_property name="ElementShortName">mem[1023:0][31:0]</obj_property>
+            <obj_property name="ObjectShortName">mem[1023:0][31:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group320" type="group">
+         <obj_property name="label">Mux b/w data memory to register file</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_2/Mux_DataMemory_to_Register/a" type="array">
+            <obj_property name="ElementShortName">a[31:0]</obj_property>
+            <obj_property name="ObjectShortName">a[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_2/Mux_DataMemory_to_Register/s" type="logic">
+            <obj_property name="ElementShortName">s</obj_property>
+            <obj_property name="ObjectShortName">s</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_2/Mux_DataMemory_to_Register/b" type="array">
+            <obj_property name="ElementShortName">b[31:0]</obj_property>
+            <obj_property name="ObjectShortName">b[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_2/Mux_DataMemory_to_Register/c" type="array">
+            <obj_property name="ElementShortName">c[31:0]</obj_property>
+            <obj_property name="ObjectShortName">c[31:0]</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group446" type="group">
+      <obj_property name="label">core3</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="group379" type="group">
+         <obj_property name="label">pc</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_3/PC/PC_Next" type="array">
+            <obj_property name="ElementShortName">PC_Next[31:0]</obj_property>
+            <obj_property name="ObjectShortName">PC_Next[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_3/PC/PC" type="array">
+            <obj_property name="ElementShortName">PC[31:0]</obj_property>
+            <obj_property name="ObjectShortName">PC[31:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group383" type="group">
+         <obj_property name="label">pc_adder</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_3/PC_Adder/a" type="array">
+            <obj_property name="ElementShortName">a[31:0]</obj_property>
+            <obj_property name="ObjectShortName">a[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_3/PC_Adder/b" type="array">
+            <obj_property name="ElementShortName">b[31:0]</obj_property>
+            <obj_property name="ObjectShortName">b[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_3/PC_Adder/c" type="array">
+            <obj_property name="ElementShortName">c[31:0]</obj_property>
+            <obj_property name="ObjectShortName">c[31:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group389" type="group">
+         <obj_property name="label">im</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_3/Instruction_Memory/A" type="array">
+            <obj_property name="ElementShortName">A[31:0]</obj_property>
+            <obj_property name="ObjectShortName">A[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_3/Instruction_Memory/multi_instr" type="array">
+            <obj_property name="ElementShortName">multi_instr[31:0]</obj_property>
+            <obj_property name="ObjectShortName">multi_instr[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_3/Instruction_Memory/RD" type="array">
+            <obj_property name="ElementShortName">RD[31:0]</obj_property>
+            <obj_property name="ObjectShortName">RD[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_3/Instruction_Memory/mem" type="array">
+            <obj_property name="ElementShortName">mem[1023:0][31:0]</obj_property>
+            <obj_property name="ObjectShortName">mem[1023:0][31:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group400" type="group">
+         <obj_property name="label">RF</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_3/Register_File/WE3" type="logic">
+            <obj_property name="ElementShortName">WE3</obj_property>
+            <obj_property name="ObjectShortName">WE3</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_3/Register_File/A1" type="array">
+            <obj_property name="ElementShortName">A1[4:0]</obj_property>
+            <obj_property name="ObjectShortName">A1[4:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_3/Register_File/A2" type="array">
+            <obj_property name="ElementShortName">A2[4:0]</obj_property>
+            <obj_property name="ObjectShortName">A2[4:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_3/Register_File/A3" type="array">
+            <obj_property name="ElementShortName">A3[4:0]</obj_property>
+            <obj_property name="ObjectShortName">A3[4:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_3/Register_File/WD3" type="array">
+            <obj_property name="ElementShortName">WD3[31:0]</obj_property>
+            <obj_property name="ObjectShortName">WD3[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_3/Register_File/RD1" type="array">
+            <obj_property name="ElementShortName">RD1[31:0]</obj_property>
+            <obj_property name="ObjectShortName">RD1[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_3/Register_File/RD2" type="array">
+            <obj_property name="ElementShortName">RD2[31:0]</obj_property>
+            <obj_property name="ObjectShortName">RD2[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_3/Register_File/Register" type="array">
+            <obj_property name="ElementShortName">Register[31:0][31:0]</obj_property>
+            <obj_property name="ObjectShortName">Register[31:0][31:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group404" type="group">
+         <obj_property name="label">se</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_3/Sign_Extend/In" type="array">
+            <obj_property name="ElementShortName">In[31:0]</obj_property>
+            <obj_property name="ObjectShortName">In[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_3/Sign_Extend/ImmSrc" type="logic">
+            <obj_property name="ElementShortName">ImmSrc</obj_property>
+            <obj_property name="ObjectShortName">ImmSrc</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_3/Sign_Extend/Imm_Ext" type="array">
+            <obj_property name="ElementShortName">Imm_Ext[31:0]</obj_property>
+            <obj_property name="ObjectShortName">Imm_Ext[31:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group409" type="group">
+         <obj_property name="label">mra</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_3/Mux_Register_to_ALU/a" type="array">
+            <obj_property name="ElementShortName">a[31:0]</obj_property>
+            <obj_property name="ObjectShortName">a[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_3/Mux_Register_to_ALU/b" type="array">
+            <obj_property name="ElementShortName">b[31:0]</obj_property>
+            <obj_property name="ObjectShortName">b[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_3/Mux_Register_to_ALU/s" type="logic">
+            <obj_property name="ElementShortName">s</obj_property>
+            <obj_property name="ObjectShortName">s</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_3/Mux_Register_to_ALU/c" type="array">
+            <obj_property name="ElementShortName">c[31:0]</obj_property>
+            <obj_property name="ObjectShortName">c[31:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group420" type="group">
+         <obj_property name="label">alu</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_3/ALU/A" type="array">
+            <obj_property name="ElementShortName">A[31:0]</obj_property>
+            <obj_property name="ObjectShortName">A[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_3/ALU/B" type="array">
+            <obj_property name="ElementShortName">B[31:0]</obj_property>
+            <obj_property name="ObjectShortName">B[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_3/ALU/ALUControl" type="array">
+            <obj_property name="ElementShortName">ALUControl[2:0]</obj_property>
+            <obj_property name="ObjectShortName">ALUControl[2:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_3/ALU/Carry" type="logic">
+            <obj_property name="ElementShortName">Carry</obj_property>
+            <obj_property name="ObjectShortName">Carry</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_3/ALU/OverFlow" type="logic">
+            <obj_property name="ElementShortName">OverFlow</obj_property>
+            <obj_property name="ObjectShortName">OverFlow</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_3/ALU/Zero" type="logic">
+            <obj_property name="ElementShortName">Zero</obj_property>
+            <obj_property name="ObjectShortName">Zero</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_3/ALU/Negative" type="logic">
+            <obj_property name="ElementShortName">Negative</obj_property>
+            <obj_property name="ObjectShortName">Negative</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_3/ALU/Result" type="array">
+            <obj_property name="ElementShortName">Result[31:0]</obj_property>
+            <obj_property name="ObjectShortName">Result[31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_3/ALU/Cout" type="logic">
+            <obj_property name="ElementShortName">Cout</obj_property>
+            <obj_property name="ObjectShortName">Cout</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_3/ALU/Sum" type="array">
+            <obj_property name="ElementShortName">Sum[31:0]</obj_property>
+            <obj_property name="ObjectShortName">Sum[31:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group432" type="group">
+         <obj_property name="label">cu</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_3/Control_Unit_Top/Op" type="array">
+            <obj_property name="ElementShortName">Op[6:0]</obj_property>
+            <obj_property name="ObjectShortName">Op[6:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_3/Control_Unit_Top/funct7" type="array">
+            <obj_property name="ElementShortName">funct7[6:0]</obj_property>
+            <obj_property name="ObjectShortName">funct7[6:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_3/Control_Unit_Top/funct3" type="array">
+            <obj_property name="ElementShortName">funct3[2:0]</obj_property>
+            <obj_property name="ObjectShortName">funct3[2:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_3/Control_Unit_Top/RegWrite" type="logic">
+            <obj_property name="ElementShortName">RegWrite</obj_property>
+            <obj_property name="ObjectShortName">RegWrite</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_3/Control_Unit_Top/ALUSrc" type="logic">
+            <obj_property name="ElementShortName">ALUSrc</obj_property>
+            <obj_property name="ObjectShortName">ALUSrc</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_3/Control_Unit_Top/MemWrite" type="logic">
+            <obj_property name="ElementShortName">MemWrite</obj_property>
+            <obj_property name="ObjectShortName">MemWrite</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_3/Control_Unit_Top/ResultSrc" type="logic">
+            <obj_property name="ElementShortName">ResultSrc</obj_property>
+            <obj_property name="ObjectShortName">ResultSrc</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_3/Control_Unit_Top/Branch" type="logic">
+            <obj_property name="ElementShortName">Branch</obj_property>
+            <obj_property name="ObjectShortName">Branch</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_3/Control_Unit_Top/ImmSrc" type="array">
+            <obj_property name="ElementShortName">ImmSrc[1:0]</obj_property>
+            <obj_property name="ObjectShortName">ImmSrc[1:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_3/Control_Unit_Top/ALUControl" type="array">
+            <obj_property name="ElementShortName">ALUControl[2:0]</obj_property>
+            <obj_property name="ObjectShortName">ALUControl[2:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_3/Control_Unit_Top/ALUOp" type="array">
+            <obj_property name="ElementShortName">ALUOp[1:0]</obj_property>
+            <obj_property name="ObjectShortName">ALUOp[1:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group440" type="group">
+         <obj_property name="label">dm</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_3/Data_Memory/WE" type="logic">
+            <obj_property name="ElementShortName">WE</obj_property>
+            <obj_property name="ObjectShortName">WE</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_3/Data_Memory/A" type="array">
+            <obj_property name="ElementShortName">A[31:0]</obj_property>
+            <obj_property name="ObjectShortName">A[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_3/Data_Memory/WD" type="array">
+            <obj_property name="ElementShortName">WD[31:0]</obj_property>
+            <obj_property name="ObjectShortName">WD[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_3/Data_Memory/RD" type="array">
+            <obj_property name="ElementShortName">RD[31:0]</obj_property>
+            <obj_property name="ObjectShortName">RD[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_3/Data_Memory/mem" type="array">
+            <obj_property name="ElementShortName">mem[1023:0][31:0]</obj_property>
+            <obj_property name="ObjectShortName">mem[1023:0][31:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group445" type="group">
+         <obj_property name="label">mdmr</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_3/Mux_DataMemory_to_Register/a" type="array">
+            <obj_property name="ElementShortName">a[31:0]</obj_property>
+            <obj_property name="ObjectShortName">a[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_3/Mux_DataMemory_to_Register/b" type="array">
+            <obj_property name="ElementShortName">b[31:0]</obj_property>
+            <obj_property name="ObjectShortName">b[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_3/Mux_DataMemory_to_Register/s" type="logic">
+            <obj_property name="ElementShortName">s</obj_property>
+            <obj_property name="ObjectShortName">s</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_3/Mux_DataMemory_to_Register/c" type="array">
+            <obj_property name="ElementShortName">c[31:0]</obj_property>
+            <obj_property name="ObjectShortName">c[31:0]</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group520" type="group">
+      <obj_property name="label">core4</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="group451" type="group">
+         <obj_property name="label">pc</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_4/PC/PC_Next" type="array">
+            <obj_property name="ElementShortName">PC_Next[31:0]</obj_property>
+            <obj_property name="ObjectShortName">PC_Next[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_4/PC/PC" type="array">
+            <obj_property name="ElementShortName">PC[31:0]</obj_property>
+            <obj_property name="ObjectShortName">PC[31:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group455" type="group">
+         <obj_property name="label">pc_adder</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_4/PC_Adder/a" type="array">
+            <obj_property name="ElementShortName">a[31:0]</obj_property>
+            <obj_property name="ObjectShortName">a[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_4/PC_Adder/b" type="array">
+            <obj_property name="ElementShortName">b[31:0]</obj_property>
+            <obj_property name="ObjectShortName">b[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_4/PC_Adder/c" type="array">
+            <obj_property name="ElementShortName">c[31:0]</obj_property>
+            <obj_property name="ObjectShortName">c[31:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group461" type="group">
+         <obj_property name="label">im</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_4/Instruction_Memory/A" type="array">
+            <obj_property name="ElementShortName">A[31:0]</obj_property>
+            <obj_property name="ObjectShortName">A[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_4/Instruction_Memory/multi_instr" type="array">
+            <obj_property name="ElementShortName">multi_instr[31:0]</obj_property>
+            <obj_property name="ObjectShortName">multi_instr[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_4/Instruction_Memory/RD" type="array">
+            <obj_property name="ElementShortName">RD[31:0]</obj_property>
+            <obj_property name="ObjectShortName">RD[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_4/Instruction_Memory/mem" type="array">
+            <obj_property name="ElementShortName">mem[1023:0][31:0]</obj_property>
+            <obj_property name="ObjectShortName">mem[1023:0][31:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group472" type="group">
+         <obj_property name="label">rf</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_4/Register_File/WE3" type="logic">
+            <obj_property name="ElementShortName">WE3</obj_property>
+            <obj_property name="ObjectShortName">WE3</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_4/Register_File/A1" type="array">
+            <obj_property name="ElementShortName">A1[4:0]</obj_property>
+            <obj_property name="ObjectShortName">A1[4:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_4/Register_File/A2" type="array">
+            <obj_property name="ElementShortName">A2[4:0]</obj_property>
+            <obj_property name="ObjectShortName">A2[4:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_4/Register_File/A3" type="array">
+            <obj_property name="ElementShortName">A3[4:0]</obj_property>
+            <obj_property name="ObjectShortName">A3[4:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_4/Register_File/WD3" type="array">
+            <obj_property name="ElementShortName">WD3[31:0]</obj_property>
+            <obj_property name="ObjectShortName">WD3[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_4/Register_File/RD1" type="array">
+            <obj_property name="ElementShortName">RD1[31:0]</obj_property>
+            <obj_property name="ObjectShortName">RD1[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_4/Register_File/RD2" type="array">
+            <obj_property name="ElementShortName">RD2[31:0]</obj_property>
+            <obj_property name="ObjectShortName">RD2[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_4/Register_File/Register" type="array">
+            <obj_property name="ElementShortName">Register[31:0][31:0]</obj_property>
+            <obj_property name="ObjectShortName">Register[31:0][31:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group476" type="group">
+         <obj_property name="label">se</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_4/Sign_Extend/In" type="array">
+            <obj_property name="ElementShortName">In[31:0]</obj_property>
+            <obj_property name="ObjectShortName">In[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_4/Sign_Extend/ImmSrc" type="logic">
+            <obj_property name="ElementShortName">ImmSrc</obj_property>
+            <obj_property name="ObjectShortName">ImmSrc</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_4/Sign_Extend/Imm_Ext" type="array">
+            <obj_property name="ElementShortName">Imm_Ext[31:0]</obj_property>
+            <obj_property name="ObjectShortName">Imm_Ext[31:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group481" type="group">
+         <obj_property name="label">mra</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_4/Mux_Register_to_ALU/a" type="array">
+            <obj_property name="ElementShortName">a[31:0]</obj_property>
+            <obj_property name="ObjectShortName">a[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_4/Mux_Register_to_ALU/b" type="array">
+            <obj_property name="ElementShortName">b[31:0]</obj_property>
+            <obj_property name="ObjectShortName">b[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_4/Mux_Register_to_ALU/s" type="logic">
+            <obj_property name="ElementShortName">s</obj_property>
+            <obj_property name="ObjectShortName">s</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_4/Mux_Register_to_ALU/c" type="array">
+            <obj_property name="ElementShortName">c[31:0]</obj_property>
+            <obj_property name="ObjectShortName">c[31:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group492" type="group">
+         <obj_property name="label">alu</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_4/ALU/A" type="array">
+            <obj_property name="ElementShortName">A[31:0]</obj_property>
+            <obj_property name="ObjectShortName">A[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_4/ALU/B" type="array">
+            <obj_property name="ElementShortName">B[31:0]</obj_property>
+            <obj_property name="ObjectShortName">B[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_4/ALU/ALUControl" type="array">
+            <obj_property name="ElementShortName">ALUControl[2:0]</obj_property>
+            <obj_property name="ObjectShortName">ALUControl[2:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_4/ALU/Carry" type="logic">
+            <obj_property name="ElementShortName">Carry</obj_property>
+            <obj_property name="ObjectShortName">Carry</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_4/ALU/OverFlow" type="logic">
+            <obj_property name="ElementShortName">OverFlow</obj_property>
+            <obj_property name="ObjectShortName">OverFlow</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_4/ALU/Zero" type="logic">
+            <obj_property name="ElementShortName">Zero</obj_property>
+            <obj_property name="ObjectShortName">Zero</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_4/ALU/Negative" type="logic">
+            <obj_property name="ElementShortName">Negative</obj_property>
+            <obj_property name="ObjectShortName">Negative</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_4/ALU/Result" type="array">
+            <obj_property name="ElementShortName">Result[31:0]</obj_property>
+            <obj_property name="ObjectShortName">Result[31:0]</obj_property>
+            <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_4/ALU/Cout" type="logic">
+            <obj_property name="ElementShortName">Cout</obj_property>
+            <obj_property name="ObjectShortName">Cout</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_4/ALU/Sum" type="array">
+            <obj_property name="ElementShortName">Sum[31:0]</obj_property>
+            <obj_property name="ObjectShortName">Sum[31:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group506" type="group">
+         <obj_property name="label">cu</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_4/Control_Unit_Top/Op" type="array">
+            <obj_property name="ElementShortName">Op[6:0]</obj_property>
+            <obj_property name="ObjectShortName">Op[6:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_4/Control_Unit_Top/funct7" type="array">
+            <obj_property name="ElementShortName">funct7[6:0]</obj_property>
+            <obj_property name="ObjectShortName">funct7[6:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_4/Control_Unit_Top/funct3" type="array">
+            <obj_property name="ElementShortName">funct3[2:0]</obj_property>
+            <obj_property name="ObjectShortName">funct3[2:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_4/Control_Unit_Top/RegWrite" type="logic">
+            <obj_property name="ElementShortName">RegWrite</obj_property>
+            <obj_property name="ObjectShortName">RegWrite</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_4/Control_Unit_Top/ALUSrc" type="logic">
+            <obj_property name="ElementShortName">ALUSrc</obj_property>
+            <obj_property name="ObjectShortName">ALUSrc</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_4/Control_Unit_Top/MemWrite" type="logic">
+            <obj_property name="ElementShortName">MemWrite</obj_property>
+            <obj_property name="ObjectShortName">MemWrite</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_4/Control_Unit_Top/ResultSrc" type="logic">
+            <obj_property name="ElementShortName">ResultSrc</obj_property>
+            <obj_property name="ObjectShortName">ResultSrc</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_4/Control_Unit_Top/Branch" type="logic">
+            <obj_property name="ElementShortName">Branch</obj_property>
+            <obj_property name="ObjectShortName">Branch</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_4/Control_Unit_Top/ImmSrc" type="array">
+            <obj_property name="ElementShortName">ImmSrc[1:0]</obj_property>
+            <obj_property name="ObjectShortName">ImmSrc[1:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_4/Control_Unit_Top/ALUControl" type="array">
+            <obj_property name="ElementShortName">ALUControl[2:0]</obj_property>
+            <obj_property name="ObjectShortName">ALUControl[2:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_4/Control_Unit_Top/ALUOp" type="array">
+            <obj_property name="ElementShortName">ALUOp[1:0]</obj_property>
+            <obj_property name="ObjectShortName">ALUOp[1:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group514" type="group">
+         <obj_property name="label">dm</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_4/Data_Memory/WE" type="logic">
+            <obj_property name="ElementShortName">WE</obj_property>
+            <obj_property name="ObjectShortName">WE</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_4/Data_Memory/A" type="array">
+            <obj_property name="ElementShortName">A[31:0]</obj_property>
+            <obj_property name="ObjectShortName">A[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_4/Data_Memory/WD" type="array">
+            <obj_property name="ElementShortName">WD[31:0]</obj_property>
+            <obj_property name="ObjectShortName">WD[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_4/Data_Memory/RD" type="array">
+            <obj_property name="ElementShortName">RD[31:0]</obj_property>
+            <obj_property name="ObjectShortName">RD[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_4/Data_Memory/mem" type="array">
+            <obj_property name="ElementShortName">mem[1023:0][31:0]</obj_property>
+            <obj_property name="ObjectShortName">mem[1023:0][31:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group519" type="group">
+         <obj_property name="label">MDMR</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_4/Mux_DataMemory_to_Register/a" type="array">
+            <obj_property name="ElementShortName">a[31:0]</obj_property>
+            <obj_property name="ObjectShortName">a[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_4/Mux_DataMemory_to_Register/b" type="array">
+            <obj_property name="ElementShortName">b[31:0]</obj_property>
+            <obj_property name="ObjectShortName">b[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_4/Mux_DataMemory_to_Register/s" type="logic">
+            <obj_property name="ElementShortName">s</obj_property>
+            <obj_property name="ObjectShortName">s</obj_property>
+         </wvobject>
+         <wvobject fp_name="/Single_Cycle_Top_Tb/DUT/CPU_4/Mux_DataMemory_to_Register/c" type="array">
+            <obj_property name="ElementShortName">c[31:0]</obj_property>
+            <obj_property name="ObjectShortName">c[31:0]</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+</wave_config>
