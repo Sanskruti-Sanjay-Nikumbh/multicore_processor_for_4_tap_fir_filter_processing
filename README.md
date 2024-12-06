@@ -1,6 +1,5 @@
 # multicore_processor_for_4_tap_fir_filter_processing
  
-# multicore_processor_for_4_Tap_FIR_filter
 This project presents the design and implementation of a multicore processor for a 4-tap FIR (Finite Impulse Response) filter using the RISC-V architecture.
 Firstly, a single cycle RISC-V CPU was designed in Verilog HDL and then it was instantiated in top-level entity for 4 times i.e. to make a quad (4 core processor). From the top-level entity i.e. "multicore.v" file using core select line approach instructions associated with every core were delivered. 
 Here, in this project each core did computations for 1 tap of fir filter i.e convolution operation for sample 1 and its coefficients.
